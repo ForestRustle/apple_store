@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./assets/fonts/SF_PRO/sf_pro.style.css">
   <link rel="stylesheet" href="normalizer.css">
   <link rel="stylesheet" href="style.css">
-
+  <linkrel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -86,15 +87,111 @@
     </section>
 
     <div id="apple-products">
-      <div class="apple-product-card">Card 1</div>
-      <div class="apple-product-card">Card 2</div>
-      <div class="apple-product-card">Card 3</div>
-      <div class="apple-product-card">Card 4</div>
-      <div class="apple-product-card">Card 5</div>
-      <div class="apple-product-card">Card 6</div>
+      <div class="apple-product-card">
+        <div class="iphone-product">
+          <div class="product-info">
+            <h2>iPhone 14 Pro</h2>
+            <p>Pro. Beyond</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Learn more</a>
+              <a href="" class="normalize-link">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apple-product-card">
+        <div class="iPad-product">
+          <div class="product-info">
+            <h2>iPad</h2>
+            <p>Lovable. Drawable. Magical.</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Learn more</a>
+              <a href="" class="normalize-link">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apple-product-card">
+        <div class="airpods-product">
+          <div class="product-info">
+            <h2>AirPods</h2>
+            <p>Share the joy.</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Shop</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apple-product-card">
+        <div class="apple-watch">
+          <div class="product-info">
+            <h2>Apple Watch <span>SERIES 8</span> </h2>
+            <p>A healthy leap ahead.</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Learn more</a>
+              <a href="" class="normalize-link">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apple-product-card">
+        <div class="apple-watch-ultra">
+          <div class="product-info">
+            <h2>Apple Watch <span>ULTRA</span> </h2>
+            <p>Adventure awaits.</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Learn more</a>
+              <a href="" class="normalize-link">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="apple-product-card">
+        <div class="apple-card">
+          <div class="product-info">
+            <h2>Apple Card</h2>
+            <p>Get up to 3% Daily Cash back <br> with every purchase.</p>
+            <div class="product-links">
+              <a href="" class="normalize-link">Learn more</a>
+              <a href="" class="normalize-link">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <section>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
   </div>
+
+
+  <script src="./script.js"></script>
 </body>
 
 </html>

@@ -201,11 +201,11 @@ section {
   background-position: center;
 }
 
-.new_iphone_info{
+.new_iphone_info {
   margin-top: 100px;
 }
 
-.new_iphone_info > h1 {
+.new_iphone_info>h1 {
   color: #1D1D1F;
   text-align: center;
   font-family: 'SF Pro Display';
@@ -217,7 +217,7 @@ section {
   letter-spacing: -0.28px;
 }
 
-.new_iphone_info > p {
+.new_iphone_info>p {
   color: #1D1D1F;
   text-align: center;
   font-family: 'SF Pro Display';
@@ -230,36 +230,192 @@ section {
   margin-top: 6px;
 }
 
-.new_iphone_info a{
+.new_iphone_info a {
   color: #06C;
-text-align: center;
-font-family: 'SF Pro Display, sans-serif';
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; /* 138.1% */
-letter-spacing: 0.231px;
-
+  text-align: center;
+  font-family: 'SF Pro Display, sans-serif';
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.001px;
+  letter-spacing: 0.231px;
 }
 
-.new_iphone_info > div{
+.new_iphone_info>div {
   text-align: center;
   margin-top: 14px;
 }
 
-.new_iphone_info>div>a{
+.new_iphone_info>div>a {
   padding-right: 25px;
 }
 
-#apple-products{
+#apple-products {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
 }
 
-.apple-product-card{
+.apple-product-card {
   display: flex;
   flex: 1 0 50%;
   height: 580px;
 
+}
+
+.product-info h2 {
+  /* color: #F5F5F7; */
+  text-align: center;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 4px;
+}
+
+.iphone-product h2 {
+  color: #F5F5F7;
+}
+
+.iphone-product p {
+  color: #F5F5F7;
+}
+
+.product-info p {
+  text-align: center;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.336px;
+  margin-bottom: 13px;
+}
+
+.product-info a {
+  color: #2997FF;
+  text-align: center;
+  font-family: 'SF Pro Text';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.001px;
+  letter-spacing: -0.374px;
+}
+
+.apple-product-card>div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.product-links {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+
+.iphone-product {
+  background-image: url('assets/ihone14Pro.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.iPad-product {
+  background-image: url('assets/ipad.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.iPad-product h2 {
+  color: #1D1D1F;
+}
+
+.iPad-product p {
+  color: #1D1D1F;
+}
+
+.airpods-product{
+  background-image: url('assets/AirPods.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.airpods-product h2 {
+  color: #1D1D1F;
+}
+
+.airpods-product p {
+  color: #1D1D1F;
+}
+
+.apple-watch{
+  background-image: url('assets/Apple-Watch.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-watch h2 {
+  color: #F5F5F7;
+  width: 240px;
+}
+
+.apple-watch p {
+  color: #F5F5F7;
+}
+
+.apple-watch  h2 > span {
+  color: red;
+  font-size: 18px;
+}
+
+.apple-watch-ultra{
+  background-image: url('assets/Apple-Watch-Ultra.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-watch-ultra h2 {
+  color: #1D1D1F;
+  width: 240px;
+}
+
+.apple-watch-ultra p {
+  color: #1D1D1F;
+}
+
+.apple-watch-ultra  h2 > span {
+  color: #fd8c49;
+  font-size: 18px;
+}
+
+.apple-card{
+  background-image: url('assets/Apple-Card.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-card h2 {
+  color: #1D1D1F;
+}
+
+.apple-card p {
+  color: #1D1D1F;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
